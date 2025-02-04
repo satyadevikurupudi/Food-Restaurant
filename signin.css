@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+body{
+    background-image: url(Assets/pexels-life-of-pix-67468.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    max-width: 100%;
+    height:45rem;
+    background-color: #181818;
+}
+header{
+    max-width: 100%;
+    padding:24px 48px;
+    background-color: transparent;
+}
+header p{
+    background-color: transparent;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.logo{
+    background-color: transparent;
+    margin: 0px 126.6px;
+    margin-bottom: 20px;
+}
+.container{
+    background-color:rgba(0, 0, 0, 0.5);
+    width: 28rem;
+    height: 36rem;
+    margin: auto;
+    padding: 44px 62px;
+    border-radius: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color:transparent;
+}
+input[type="text"],[type="password"],[type="button"]{
+    background-color: transparent;
+}
+input[type="text"]{
+    width: 100%;
+    padding:18px;
+    border: 1px solid rgb(139, 139, 139);
+    font-size: 1rem;
+    outline-color: #fff;
+}
+input[type="submit"]{
+    width: 100%;
+    padding:10px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+}
+.container .head{
+    color: #ffffff;
+    font-size:32px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+.input_group{
+    position: relative;
+}
+.input_group label{
+    position: absolute;
+    top: 50%;
+    left:18px;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transform: all 0.3s ease;
+    color: #fff;
+}
+.input_group input:is(:focus,:valid) ~ label{
+    transform: translateY(-130%);
+    font-size: 14px;
+}
+.pass{
+    position: relative;
+}
+.pass label{
+    position: absolute;
+    top: 50%;
+    left:18px;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transform: all 0.3s ease-in;
+    color: #fff;
+}
+.pass input:is(:focus,:valid) ~ label{
+    transform: translateY(-130%);
+    font-size: 12px;
+}
+.signin_btn input{
+    background-color:#FEA116;
+    font-size:1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.signin_btn input:hover{
+    background-color: #ff9900e1;
+}
+span{
+    color: rgb(225, 225, 225);
+}
+.code_btn input{
+    background-color:rgba(105, 103, 103, 0.49);
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+.forgot:hover{
+    text-decoration: underline;
+    color: lightgray;
+}
+input[type="checkbox"]{
+    zoom:1.5;
+    margin-right: 10px;
+}
+.signup{
+    font-weight: 600;
+}
+.signup:hover{
+    text-decoration: underline;
+}
+label{
+    color: rgb(225, 225, 225);
+}
+.desc{
+    color: rgb(225, 225, 225);
+}
+footer{
+    padding:12rem;
+    
+}
+footer p{
+    margin-bottom:3rem;
+    color: #737373;
+}
+footer a{
+    text-decoration: underline;
+    color: #737373;
+}
+.list{
+    display: flex;
+    justify-content:space-between;
+    max-width: 75%;
+}
+.col{
+    display: flex;
+    flex-direction:column;
+    gap: 1.5rem;
+}
